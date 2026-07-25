@@ -169,16 +169,10 @@ AI-Money-Mentor/
 ├── .env.example           ← Environment variable template
 ├── templates/             ← Jinja2 HTML (40+ pages)
 ├── static/
-│   ├── styles/            ← CSS stylesheets
-│   └── scripts/           ← JavaScript files
+│   └── script.js          ← JavaScript files
 ├── utils/                 ← Utility modules (30+)
+
 │   └── config.py          ← Centralized configuration
-├── tests/                 ← Pytest suite (20+ files)
-├── docs/
-│   ├── api_spec.md        ← API specification
-│   ├── ARCHITECTURE.md    ← System architecture docs
-│   └── SETUP.md           ← Setup and configuration guide
-└── .github/               ← CI/CD workflows
 ```
 
 ---
@@ -267,7 +261,7 @@ git push origin feature/amazing-feature
 
 ## 📜 License
 
-MIT License © 2025 Om Roy — free to use, modify, and distribute.
+MIT License © 2025  — free to use, modify, and distribute.
 
 ---
 

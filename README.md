@@ -162,17 +162,19 @@ pytest --cov=app tests/       # With coverage
 AI-Money-Mentor/
 ├── app.py                 ← Flask entry point (~7000 lines)
 ├── agents.py              ← Standalone CLI agents
-├── models.py              ← SQLAlchemy ORM models
 ├── requirements.txt       ← Production dependencies
-├── requirements-dev.txt   ← Dev/testing dependencies
-├── pyproject.toml         ← Project metadata & pytest config
-├── .env.example           ← Environment variable template
-├── templates/             ← Jinja2 HTML (40+ pages)
+├── templates/             ← Jinja2 HTML
+│   └── index.html         ← HTMl file
 ├── static/
-│   └── script.js          ← JavaScript files
-├── utils/                 ← Utility modules (30+)
-
-│   └── config.py          ← Centralized configuration
+│   └── script.js          ← JavaScript file
+├── utils/                      ← Utility modules
+│   ├── ai_chat.py              ← AI chatbot
+│   ├── money_score.py          ← Money score calculation
+│   ├── multi_agent.py          ← Multi-agent orchestration
+│   ├── pdf_parser.py           ← PDF statement parser
+│   ├── sip.py                  ← SIP calculator
+│   ├── stock.py                ← Stock analysis
+│   └── tax.py                  ← Tax estimation
 ```
 
 ---
